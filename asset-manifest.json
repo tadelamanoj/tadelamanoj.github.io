@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Manoj_kumar_tadela_Profile/static/css/main.073c9b0a.css",
-    "main.js": "/Manoj_kumar_tadela_Profile/static/js/main.beff6761.js",
-    "static/js/787.fcce8fda.chunk.js": "/Manoj_kumar_tadela_Profile/static/js/787.fcce8fda.chunk.js",
-    "index.html": "/Manoj_kumar_tadela_Profile/index.html",
-    "main.073c9b0a.css.map": "/Manoj_kumar_tadela_Profile/static/css/main.073c9b0a.css.map",
-    "main.beff6761.js.map": "/Manoj_kumar_tadela_Profile/static/js/main.beff6761.js.map",
-    "787.fcce8fda.chunk.js.map": "/Manoj_kumar_tadela_Profile/static/js/787.fcce8fda.chunk.js.map"
+    "main.css": "/my-react-l/static/css/main.073c9b0a.css",
+    "main.js": "/my-react-l/static/js/main.793e55ce.js",
+    "static/js/787.fcce8fda.chunk.js": "/my-react-l/static/js/787.fcce8fda.chunk.js",
+    "index.html": "/my-react-l/index.html",
+    "main.073c9b0a.css.map": "/my-react-l/static/css/main.073c9b0a.css.map",
+    "main.793e55ce.js.map": "/my-react-l/static/js/main.793e55ce.js.map",
+    "787.fcce8fda.chunk.js.map": "/my-react-l/static/js/787.fcce8fda.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.beff6761.js"
+    "static/js/main.793e55ce.js"
   ]
 }
