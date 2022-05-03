@@ -9,9 +9,9 @@ function home(){
         <div className="home">
         
             <Image className="home_pic col-3" src={require('./images/mypic.png')} rounded />
-            <div className="home_details col-12">All about me.</div>
+            <div className="home_details col-9">All about me.</div>
             
-        </div>
+        </div> 
     )
 }
 export default home

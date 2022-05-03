@@ -3,12 +3,11 @@ import "./header.css";
 import {Link} from 'react-router-dom'
 function header() {
     return (
-        <div className="header">
-            <div className="header_logo">
+        <div className="header sm">
             <Link className="header_logo" to='/'>
                 <span className="header_option1">🟢Manoj Kumar Tadela</span> 
             </Link>
-            </div>
+            
 
             
             <div className="header_nav">
