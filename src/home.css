@@ -1,0 +1,15 @@
+.home{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    
+}
+.home_pic{
+    border-radius: 5px;
+    border: solid 1px;
+}
+.home_details{
+    grid-column: auto;
+    color: blue;
+    display: flex;
+    background-color: blanchedalmond;
+}

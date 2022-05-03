@@ -1,0 +1,45 @@
+.header{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(75, 102, 175);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.header_logo{
+    width: 200px;
+    object-fit: cover;
+    display: flex;
+    text-decoration:none;
+    margin: 0 20px;
+    color: rgb(255, 255, 255);
+    margin-right: auto;
+}
+.header_logo:hover{
+    width: 200px;
+    object-fit: cover;
+    display: flex;
+    text-decoration:none;
+    margin: 0 20px;
+    color: rgb(255, 255, 255);
+    margin-right: auto;
+}
+.header_nav{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: auto;
+}
+.header_option{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    float: right;
+
+}
+.header_option1{
+    font-size: 15px;
+    
+}
