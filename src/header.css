@@ -1,8 +1,8 @@
 .header{
-    height: 60px;
+    height: 60px; /* change for navb height */
     display: flex;
     align-items: center;
-    background-color: rgb(75, 102, 175);
+    background-color: rgb(15, 1, 26);
     position: sticky;
     top: 0;
     z-index: 100;
@@ -15,6 +15,11 @@
     margin: 0 20px;
     color: rgb(255, 255, 255);
     margin-right: auto;
+    font-weight: 100px;
+    height:fit-content;
+    text-shadow: 3px;
+    text-decoration: solid;
+    overflow: visible;
 }
 .header_logo:hover{
     width: 200px;

@@ -24,7 +24,7 @@ function App() {
      
       
           <Router>
-            <div>
+            <div className='app'>
               <Head/>
               <Switch>
                 <Route exact path="/work" component={Work}/>
