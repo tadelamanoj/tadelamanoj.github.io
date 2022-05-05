@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 function header() {
     return (
         <div className="header col-12 sm">
-            <Link className="header_logo" to='/'>
+            <Link className="header_logo" to='/home'>
                 <span className="header_option1">🟢Manoj Kumar Tadela</span> 
             </Link>
             
