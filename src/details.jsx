@@ -4,7 +4,7 @@ function Details() {
     return ( 
         <>
             <h1 className="h1_name">Hi..There..! I'm Manoj Kumar Tadela</h1><br/>
-            <p className="p_details"> I'm a Software Engineer and  working as a Full stack developer.I design and develop amazing web applications and ecommorce web sites. </p>
+            <p className="p_details"> I'm a Software Engineer and  working as a Full stack developer.I design and develop amazing web applications and ecommorce web sites.with years of hands-on experience in developing scalable websites/applications using wide range of frot-end and back-end skills. </p>
 
         </>
      );

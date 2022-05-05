@@ -12,17 +12,19 @@ import Button  from "@material-ui/core/Button"
 function home(){
     return (
     
-        <Paper className="home " elevation={5}>
+        <Paper className="home" elevation={5}>
             <Image
-            className="avat col-3 "
+            className="avat"
             src={require('./images/mypicc.png')}
             alt="manoj"
+            height={300}
+            width={300}
             roundedCircle
             />
-            <div className=" home_card1 col-9">
+            <div className="home_card col-8">
                 <h1 className="home_header" >Hi There..!</h1>
-                <p>I'm Manoj Kumar Tadela.</p>
-                <p>Passionate full-stack engineer with years of hands-on experience in developing scalable websites/applications using wide range of frot-end and back-end skills. </p> 
+                <p>I'm Manoj,</p>
+                <p>A Full-Stack Engineer based in Andhra Pradesh. </p> 
                 <Link to="/contact"><Button className="contact" color="primary" variant="contained" >Contact Me</Button></Link>
             </div>
         </Paper>

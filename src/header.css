@@ -19,7 +19,7 @@
     height:fit-content;
     text-shadow: 3px;
     text-decoration: solid;
-    overflow: visible;
+    overflow: hidden;
 }
 .header_logo:hover{
     width: 200px;

@@ -14,11 +14,11 @@ import Contact from './contact'
 import './App.css';
 function App() {
 
-  function pageNotFound(){
-    return (
-      <h>Page Not Found</h>
-    )
-  }
+  // function pageNotFound(){
+  //   return (
+  //     <h>Page Not Found</h>
+  //   )
+  // }
 
   return (
      
