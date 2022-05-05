@@ -1,0 +1,15 @@
+.card{
+    margin: 2rem 2rem ;
+}
+h2{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(105, 105, 105);
+}
