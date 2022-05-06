@@ -5,7 +5,14 @@
     justify-content: space-evenly;
     margin: 2rem 2rem;
 }
-
+.home>div{
+    border-bottom: 1px solid gray;
+    padding-bottom: 3rem;
+}
+.home>Image{
+    border-bottom: 1px solid gray;
+    padding-bottom: 3rem;
+}
 .home_header{
     text-align: center;
     color: rgb(255, 104, 4);
@@ -28,6 +35,17 @@
 .avat:hover{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transform: scale(0.95);
+}
+.skills{
+    max-width: 80px;
+    margin: 2rem;
+    flex-wrap: wrap;
+}
+.skill_head{
+    font-size: 100px;
+    color: green;
+    flex-wrap: wrap;
+    text-align: center;
 }
 @media only screen and (max-width: 480px) {
     /* This CSS will be applied only to phones and other small devices. */
