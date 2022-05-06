@@ -24,7 +24,7 @@ function home(){
             roundedCircle
             />
             <div className="home_card col-8">
-                <h1 className="home_header" >Hi There..!</h1>
+                <h1 className="home_header" >Hi There.!</h1>
                 <p>I'm Manoj,</p>
                 <p>A Full-Stack Engineer based in Andhra Pradesh. </p> 
                 <Link to="/contact"><Button className="contact" color="primary" variant="contained" >Contact Me</Button></Link>

@@ -19,6 +19,7 @@
     margin-top: 20px;
     font-size: 80px;
     overflow: hidden;
+    overflow-wrap: break-word;
 }
 .home_card{
     text-align: center;
@@ -27,6 +28,7 @@
     text-shadow: 2px 2px 4px #928e8e;
     text-decoration: none;
     font-size: 50px;
+    overflow-wrap: break-word;
 }
 .avat{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
