@@ -3,7 +3,7 @@ function work() {
 
     return(
         <div>
-            Somthing about my works.
+            Something about my works, yet to post .
         </div>
     )
     
