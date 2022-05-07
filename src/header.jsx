@@ -1,9 +1,10 @@
 import React from "react";
 import "./header.css";
 import {Link} from 'react-router-dom'
+import BasicMenu from "./menu";
 function header() {
     return (
-        <div className="header col-12 sm">
+        <div className="header col-12">
             <Link className="header_logo" to='/manoj-kumar-tadela/home'>
                 <span className="header_option1">🟢Manoj Kumar Tadela</span> 
             </Link>
@@ -13,7 +14,10 @@ function header() {
                 <Link to='/work'><div className="header_option"><span className="header_option1">Work</span></div></Link>
                 <Link to='/contact'><div className="header_option"><span className="header_option1">Contact</span></div></Link>
             </div>
-        
+            <div className="header_dash">
+                <BasicMenu />
+            </div>
+            
         </div>
     );
 }

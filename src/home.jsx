@@ -11,6 +11,7 @@ import {Link} from 'react-router-dom'
 import Button  from "@material-ui/core/Button"
 // import Contact from "./contact"
 import Skills from './skills.json'
+// import BasicMenu from "./menu"
 function home(){
     return (
     
@@ -41,7 +42,7 @@ function home(){
                 }
                 
             </div>
-
+            {/* <BasicMenu/> */}
 
 
         </Paper>
