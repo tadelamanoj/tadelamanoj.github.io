@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from "@mui/material/Card"
+// import Card from "@mui/material/Card"
 import CallIcon from '@mui/icons-material/Call';
 import ContactMailRoundedIcon from '@mui/icons-material/ContactMailRounded';
 import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
@@ -9,7 +9,7 @@ import './contact.css'
 function contact() {
     return(
         <div className='card'>
-            <Card className='contact' elevation={5}>
+            <div className='contact'>
                 <h2>
                     <CallIcon color='primary' sx={{ fontSize: 40 }} />
                     <span>9100526452</span>
@@ -31,7 +31,7 @@ function contact() {
                     <span><a href='https://www.facebook.com/profile.php?id=100005478107549'>FaceBook</a></span>
                 </h2>
                 
-            </Card>
+            </div>
         </div>
     )
 }

@@ -3,6 +3,8 @@
     display: flex;
     flex-wrap:wrap;
     justify-content: space-evenly;
+    background-image: linear-gradient(to bottom right,rgb(5, 54, 146),rgb(252, 248, 248),rgb(126, 126, 243));
+
     /* margin: 1rem 1rem; */
 }
 .home>div{
@@ -61,6 +63,8 @@
         display: flex;
         flex-wrap:wrap;
         justify-content: space-evenly;
+        background-image: linear-gradient(to bottom right,rgb(18, 16, 148),rgb(252, 248, 248),rgb(126, 126, 243));
+
         /* margin: 1rem 1rem; */
     }
     .home>div{
