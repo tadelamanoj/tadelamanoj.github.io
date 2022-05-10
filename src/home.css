@@ -3,7 +3,7 @@
     display: flex;
     flex-wrap:wrap;
     justify-content: space-evenly;
-    background-image: linear-gradient(to bottom right,rgb(5, 54, 146),rgb(252, 248, 248),rgb(126, 126, 243));
+    background-image: linear-gradient(to bottom right,rgb(13, 13, 14),rgb(252, 248, 248),rgb(172, 167, 167),rgb(252, 248, 248),rgb(28, 28, 29));
 
     /* margin: 1rem 1rem; */
 }
@@ -63,7 +63,8 @@
         display: flex;
         flex-wrap:wrap;
         justify-content: space-evenly;
-        background-image: linear-gradient(to bottom right,rgb(18, 16, 148),rgb(252, 248, 248),rgb(126, 126, 243));
+        /* background-image: linear-gradient(to bottom right,rgb(7, 115, 119),rgb(252, 248, 248),rgb(97, 245, 208)); */
+        background-image: linear-gradient(to bottom right,rgb(13, 13, 14),rgb(252, 248, 248),rgb(172, 167, 167),rgb(252, 248, 248),rgb(28, 28, 29));
 
         /* margin: 1rem 1rem; */
     }
