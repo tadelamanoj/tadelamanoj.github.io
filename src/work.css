@@ -1,0 +1,13 @@
+.work{
+    /* display: block; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 2rem;
+    justify-content: space-evenly;
+}
+.workitem{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 2rem;
+
+}

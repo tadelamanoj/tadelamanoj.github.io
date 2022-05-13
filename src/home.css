@@ -3,9 +3,7 @@
     display: flex;
     flex-wrap:wrap;
     justify-content: space-evenly;
-    background-image: linear-gradient(to bottom right,rgb(13, 13, 14),rgb(252, 248, 248),rgb(172, 167, 167),rgb(252, 248, 248),rgb(28, 28, 29));
-
-    /* margin: 1rem 1rem; */
+    /* background-image: linear-gradient(to bottom right,rgb(252, 248, 248),rgb(31, 0, 51),rgb(252, 248, 248),rgb(88, 72, 145),rgb(252, 248, 248),rgb(82, 24, 121)); */
 }
 .home>div{
     border-bottom: 1px solid gray;
@@ -27,7 +25,7 @@
     text-align: center;
     font-size: 30px;
     box-shadow: 5px;
-    text-shadow: 2px 2px 4px #928e8e;
+    /* text-shadow: 2px 2px 4px #928e8e; */
     text-decoration: none;
     font-size: 50px;
     overflow-wrap: break-word;
@@ -36,6 +34,8 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transform: scale(0.9);
     margin: 2rem;
+    height: 300px;
+    width: 300px;
 }
 .avat:hover{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -47,26 +47,33 @@
     flex-wrap: wrap;
 }
 .skill_head{
-    font-size: 100px;
+    font-size: 80px;
     color: green;
     flex-wrap: wrap;
     text-align: center;
 }
+/* .experience_header:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(0.95);
+    text-align: center;
+    color: rgb(0, 9, 128);
+
+} */
+.experience_header{
+    text-transform: uppercase;
+    font-size: 80px;
+    color: rgb(0, 9, 128);
+    text-align: center;
+}
 @media only screen and (max-width: 580px) {
     /* This CSS will be applied only to phones and other small devices. */
-    /* .home{
-        background-color: #928e8e;
-
-    } */
     .home{
         /* background-color: rgb(32, 32, 32); */
         display: flex;
         flex-wrap:wrap;
         justify-content: space-evenly;
         /* background-image: linear-gradient(to bottom right,rgb(7, 115, 119),rgb(252, 248, 248),rgb(97, 245, 208)); */
-        background-image: linear-gradient(to bottom right,rgb(13, 13, 14),rgb(252, 248, 248),rgb(172, 167, 167),rgb(252, 248, 248),rgb(28, 28, 29));
-
-        /* margin: 1rem 1rem; */
+        /* background-image: linear-gradient(to bottom right,rgb(13, 13, 14),rgb(252, 248, 248),rgb(172, 167, 167),rgb(252, 248, 248),rgb(28, 28, 29)); */
     }
     .home>div{
         border-bottom: 1px solid gray;
@@ -86,8 +93,7 @@
     }
     .home_card{
         text-align: center;
-        /* box-shadow: 5px; */
-        text-shadow: 2px 2px 4px #948282;
+        /* text-shadow: 2px 2px 4px #948282; */
         text-decoration: none;
         font-size: 30px;
         color: rgb(18, 19, 18);
@@ -97,6 +103,8 @@
         box-shadow: 0 4px 8px 0 rgba(12, 12, 12, 0.2), 0 6px 20px 0 rgba(10, 10, 10, 0.19);
         transform: scale(0.9);
         margin: 0.5rem;
+        height: 300px;
+        width: 300px;
     }
     .avat:hover{
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -111,6 +119,12 @@
         font-size: 3rem;
         color: green;
         flex-wrap: wrap;
+        text-align: center;
+    }
+    .experience_header{
+        text-transform: uppercase;
+        font-size: 3rem;
+        color: rgb(0, 9, 128);
         text-align: center;
     }
 

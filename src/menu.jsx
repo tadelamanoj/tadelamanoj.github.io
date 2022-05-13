@@ -5,7 +5,7 @@ import Button from '@mui/material/Button';
 import { Link } from 'react-router-dom';
 import MenuIcon from '@mui/icons-material/Menu';
 import { useState,
-  //  useEffect 
+    useEffect 
   } from 'react';
 import './menu.css';
 
@@ -30,7 +30,7 @@ function BasicMenu(){
     
   }
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  React.useEffect(()=>{setRend(menuOptions)},[menu])
+  useEffect(()=>{setRend(menuOptions)},[menu])
   return(
     <div>
       {menu?'' : <Button onClick={handleclick}><MenuIcon className='hamburg' sx={{ fontSize: 40 }}/></Button>}

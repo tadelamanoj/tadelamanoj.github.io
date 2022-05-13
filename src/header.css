@@ -5,7 +5,7 @@
         display: flex;
         align-items: center;
         background-color: rgb(15, 1, 26);
-        position: sticky;
+        position: sticky; 
         top: 0;
         flex-wrap: wrap;
         z-index: 100;
@@ -51,7 +51,7 @@
 
 @media only screen and (min-width:580px) {
     .header{
-        height: 70px; /* change for navb height */
+        height: 50px; /* change for navb height */
         display: flex;
         align-items: center;
         background-color: rgb(15, 1, 26);
@@ -96,7 +96,7 @@
 
     }
     .header_option1{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
 
     }
     .header_dash{

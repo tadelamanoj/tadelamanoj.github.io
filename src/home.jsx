@@ -9,9 +9,8 @@ import './home.css'
 import Paper from '@mui/material/Paper'
 import {Link} from 'react-router-dom'
 import Button  from "@material-ui/core/Button"
-// import Contact from "./contact"
 import Skills from './skills.json'
-// import BasicMenu from "./menu"
+import Work from './work'
 function home(){
     return (
     
@@ -20,8 +19,6 @@ function home(){
             className="avat"
             src={require('./images/mypicc.png')}
             alt="manoj"
-            height={300}
-            width={300}
             roundedCircle
             />
             <div className="home_card col-8">
@@ -30,20 +27,24 @@ function home(){
                 <p>A Full-Stack Engineer based in Andhra Pradesh. </p> 
                 <Link to="/contact"><Button className="contact" color="primary" variant="contained" >Contact Me</Button></Link>
             </div>
+            
+            <div className="experience">
+                <div className="experience_header" >Experience</div>
+                <Work/>
+            </div>
 
             <div className="skill col-11">
                 <div className="skill_head">Skills</div>
                 {
-                    Skills.map(skill=>{
+                    Skills.map((skill,index)=>{
                         return (
-                            <Image className="skills" src={skill.image} alt={skill.skill}/>
+                            <Image className="skills" key={index} src={skill.image} alt={skill.skill}/>
                         )
                     })
                 }
                 
             </div>
-            {/* <BasicMenu/> */}
-
+            
 
         </Paper>
         
