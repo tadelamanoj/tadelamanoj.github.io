@@ -42,9 +42,16 @@
     transform: scale(0.95);
 }
 .skills{
-    max-width: 80px;
+    max-width: 90px;
     margin: 2rem;
     flex-wrap: wrap;
+}
+.skills:hover{
+    max-width: 90px;
+    margin: 2rem;
+    flex-wrap: wrap;
+    transform: scale(1.3);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .skill_head{
     font-size: 80px;
@@ -52,13 +59,7 @@
     flex-wrap: wrap;
     text-align: center;
 }
-/* .experience_header:hover{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    transform: scale(0.95);
-    text-align: center;
-    color: rgb(0, 9, 128);
 
-} */
 .experience_header{
     text-transform: uppercase;
     font-size: 80px;
