@@ -1,5 +1,4 @@
 .work{
-    /* display: block; */
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -7,11 +6,26 @@
     justify-content: space-evenly;
 }
 .workitem{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: 2rem;
-
 }
 .workitem:hover{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transform: scale(1.05);
+}
+@media only screen and (max-width: 580px) {
+    .work{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        /* margin: 1rem; */
+        justify-content: space-evenly;
+        width: auto;
+    }
+    .workitem{
+        margin-bottom: 0.5rem;
+    }
+    .workitem:hover{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transform: scale(1.05);
+    }
 }

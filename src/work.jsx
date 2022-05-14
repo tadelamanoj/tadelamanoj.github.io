@@ -11,7 +11,8 @@ import './work.css';
 function work() {
     function alerting(){
         
-        alert("This is not available to live")
+        const newLocal = "This is not available to live";
+        alert(newLocal)
         
     }
     return(
