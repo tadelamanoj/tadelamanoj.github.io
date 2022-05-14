@@ -27,6 +27,7 @@
         overflow: hidden;
         flex-wrap: wrap;
         flex-flow: row;
+        padding: 1rem;
     }
     .image{
         max-width: 100%;
@@ -35,10 +36,10 @@
         margin-left: auto;
     }
     .strong{
-        font-size: 3.5rem;
+        font-size: 2rem;
     }
     .details_para{
-        font-size: 2rem;
+        font-size: 1.8rem;
         margin: 2rem;
         margin-right: auto;
         overflow-wrap: break-word;
