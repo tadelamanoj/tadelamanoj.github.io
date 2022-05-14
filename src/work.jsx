@@ -19,8 +19,8 @@ function work() {
         <div className='work'>
             {Works.map((item,index)=>{
                 return(
-                    <div className='workitem'>
-                    <Card key={index} sx={{ maxWidth: 390 }}>
+                    <div key={index} className='workitem'>
+                    <Card  sx={{ maxWidth: 390 }}>
                     <CardMedia
                         component="img"
                         height="160"

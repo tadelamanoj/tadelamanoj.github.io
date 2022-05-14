@@ -69,7 +69,6 @@
 @media only screen and (max-width: 580px) {
     /* This CSS will be applied only to phones and other small devices. */
     .home{
-        /* background-color: rgb(32, 32, 32); */
         display: flex;
         flex-wrap:wrap;
         justify-content: space-evenly;

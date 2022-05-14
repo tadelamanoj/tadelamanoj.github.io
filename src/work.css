@@ -6,10 +6,9 @@
     justify-content: space-evenly;
 }
 .workitem{
-    margin: 2rem;
+    margin: 1.5rem;
 }
 .workitem:hover{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transform: scale(1.05);
 }
 @media only screen and (max-width: 580px) {
@@ -17,12 +16,11 @@
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        /* margin: 1rem; */
         justify-content: space-evenly;
-        width: auto;
     }
     .workitem{
-        margin-bottom: 0.5rem;
+        margin: -1rem;
+        margin-bottom: 2rem;
     }
     .workitem:hover{
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
