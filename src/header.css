@@ -1,11 +1,11 @@
 @media only screen and (max-width: 580px) {
-    
+    /* for small screens */
     .header{
         height: auto; 
         display: flex;
         align-items: center;
         background-color: rgb(15, 1, 26);
-        position: sticky; 
+        position: sticky;
         top: 0;
         flex-wrap: wrap;
         z-index: 100;
@@ -49,7 +49,8 @@
 
 
 
-@media only screen and (min-width:580px) {
+@media only screen and (min-width:580px) { 
+    /* for laptops and tabs */
     .header{
         height: 50px; /* change for navb height */
         display: flex;
