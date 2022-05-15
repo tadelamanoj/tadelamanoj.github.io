@@ -6,12 +6,11 @@
 // import Button from '@mui/material/Button';
 // import Typography from '@mui/material/Typography';
 // import './education.css';
-// // import ;
 // function education() {
 //     let educations=[{}]
 //     return(
 //         <div className='work'>
-//             {educations.map((item,index)=>{
+            
 //                 return(
 //                     <div key={index} className='workitem'>
 //                     <Card  sx={{ maxWidth: 390 }}>
@@ -38,7 +37,6 @@
 //                     </Card>  
 //                     </div>
 //                 )
-//              })} 
 //         </div>
 //     )
 // }

@@ -1,0 +1,38 @@
+.acieve{
+    text-align: center;
+    margin: 5rem;
+    margin:4rem;
+    font-size: 2.5rem;
+}
+.achieve_head{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 2rem;
+    color: green;
+
+}
+li{
+    font-size: 2rem;
+    margin-left: 2rem;
+}
+@media only screen and (max-width: 580px) {
+    /* for small screens */
+    .acieve{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .achieve_head{
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 2.5rem;
+        margin-top: 1rem;
+        color: green;
+    
+    }
+    li{
+        font-size: 1.5rem;
+        word-break: keep-all;
+        margin-left: 2rem;
+    }
+}

@@ -58,6 +58,7 @@
     color: green;
     flex-wrap: wrap;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .experience_header{

@@ -11,6 +11,7 @@ import {Link} from 'react-router-dom'
 import Button  from "@material-ui/core/Button"
 import Skills from './skills.json'
 import Work from './work'
+import Achievements from './achievements'
 function home(){
     return (
     
@@ -44,7 +45,9 @@ function home(){
                 }
                 
             </div>
-            
+            <div>
+                <Achievements/>
+            </div>
 
         </Paper>
         
