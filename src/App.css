@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+.pagenotfound{
+  align-items: center;
+  align-content: center;
+  color: rgb(247, 245, 245);
+  background-color: rgb(72, 165, 241);
+  border-radius: 3px;
+}
+.pnfimage{
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+}
+.pnf{
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+}

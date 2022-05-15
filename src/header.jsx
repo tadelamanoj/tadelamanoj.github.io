@@ -10,9 +10,9 @@ function header() {
             </Link>
             
             <div className="header_nav">
-                <Link to='/details' ><div className="header_option"><span className="header_option1">About</span></div></Link>
-                <Link to='/work'><div className="header_option"><span className="header_option1">Work</span></div></Link>
-                <Link to='/contact'><div className="header_option"><span className="header_option1">Contact</span></div></Link>
+                <Link to='/manoj-kumar-tadela/details' ><div className="header_option"><span className="header_option1">About</span></div></Link>
+                <Link to='/manoj-kumar-tadela/work'><div className="header_option"><span className="header_option1">Work</span></div></Link>
+                <Link to='/manoj-kumar-tadela/contact'><div className="header_option"><span className="header_option1">Contact</span></div></Link>
             </div>
             <div className="header_dash">
                 <BasicMenu />
