@@ -5,7 +5,7 @@ import BasicMenu from "./menu";
 function header() {
     return (
         <div className="header col-12">
-            <Link className="header_logo" to='/home'>
+            <Link className="header_logo" to='/manoj-kumar-tadela/home'>
                 <span className="header_option1">🟢Manoj Kumar Tadela</span> 
             </Link>
             
