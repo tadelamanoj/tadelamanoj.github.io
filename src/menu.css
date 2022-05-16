@@ -4,15 +4,20 @@
     padding-inline-start: 1rem;
     border: 1px solid gray;
 }
-.hamburg{
+#hamburg{
     color: aliceblue;
 }
-.options{
-    color: aliceblue;
-    text-decoration: none;
+
+#n{
+    color: rgb(233, 237, 240);
+    background-color: rgb(8, 1, 1);
+    display: block;
 }
 .optionbutton{
-    margin: 1px;
-    flex-direction: row;
-    flex-wrap: wrap;
+    margin-right: 1rem;
+
 }   
+.menu{
+    color: aliceblue;
+    display: block;
+}

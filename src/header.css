@@ -4,7 +4,7 @@
         height: auto; 
         display: flex;
         align-items: center;
-        background-color: rgb(15, 1, 26);
+        background-color: rgb(4, 1, 17);
         position: sticky;
         top: 0;
         flex-wrap: wrap;
@@ -17,10 +17,9 @@
         /* margin-inline-start: auto; */
         margin: 0 20px;
         text-decoration:none;
-        color: rgb(255, 255, 255);
+        color: rgb(253, 251, 251);
         overflow: visible;
         text-align: left;
-
     }
     .header_logo:hover{
         width: 200px;
@@ -41,6 +40,7 @@
         float: right;
         align-self: auto;
         font-size: medium;
+        color: aliceblue;
     }
 
 }
@@ -98,7 +98,8 @@
     }
     .header_option1{
         font-size: 1.2rem;
-
+        color: white;
+        margin-right: 10px;
     }
     .header_dash{
         display:none;
