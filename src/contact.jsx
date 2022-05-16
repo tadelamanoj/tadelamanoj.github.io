@@ -10,26 +10,26 @@ function contact() {
     return(
         <div className='card'>
             <div className='contact'>
-                <h2>
+                <p>
                     <CallIcon color='primary' sx={{ fontSize: 40 }} />
-                    <span>9100526452</span>
-                </h2>
-                <h2>
+                    <span> 9100526452</span>
+                </p>
+                <p>
                     <ContactMailRoundedIcon color='primary' sx={{ fontSize: 40 }}/>
-                    <span><a href='https://mail.google.com/mail/u/0/#inbox'>manojkumartadela333@gmail.com</a></span>
-                </h2>
-                <h2>
+                    <span><a href='https://mail.google.com/mail/u/0/#inbox'> manojkumartadela333@gmail.com</a></span>
+                </p>
+                <p>
                     <LinkedInIcon color='primary' sx={{ fontSize: 40 }}/>
-                    <span><a href='https://www.linkedin.com/in/manoj-kumar-tadela-264056130/'>LinkedIn</a></span>
-                </h2>
-                <h2>
-                    <GitHubIcon color='primary' sx={{ fontSize: 40 }}/>
-                    <span><a href='https://github.com/tadelamanoj'>Git Hub</a></span>
-                </h2>
-                <h2>
+                    <span><a href='https://www.linkedin.com/in/manoj-kumar-tadela-264056130/'> LinkedIn</a></span>
+                </p>
+                <p>
+                    <GitHubIcon color='black' sx={{ fontSize: 40 }}/>
+                    <span><a href='https://github.com/tadelamanoj'> Git Hub</a></span>
+                </p>
+                <p>
                     <FacebookRoundedIcon color='primary' sx={{ fontSize: 40 }}/>
-                    <span><a href='https://www.facebook.com/profile.php?id=100005478107549'>FaceBook</a></span>
-                </h2>
+                    <span><a href='https://www.facebook.com/profile.php?id=100005478107549'> FaceBook</a></span>
+                </p>
                 
             </div>
         </div>
