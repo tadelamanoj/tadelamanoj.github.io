@@ -12,6 +12,7 @@ import Button  from "@material-ui/core/Button"
 import Skills from './skills.json'
 import Work from './work'
 import Achievements from './achievements'
+// import Menu from './menu'
 function home(){
     return (
     
@@ -24,8 +25,8 @@ function home(){
             />
             <div className="home_card col-8">
                 <h1 className="home_header" >Hi There.!</h1>
-                <p>I'm Manoj,</p>
-                <p>A Full-Stack Engineer based in Andhra Pradesh. </p> 
+                <p id="intro">I'm Manoj,</p>
+                <p id="intro">A Full-Stack Engineer based in Andhra Pradesh. </p> 
                 <Link to="/contact"><Button className="contact" color="primary" variant="contained" >Contact Me</Button></Link>
             </div>
             
@@ -34,7 +35,7 @@ function home(){
                 <Work/>
             </div>
 
-            <div className="skill col-11">
+            <div className="skill">
                 <div className="skill_head">Skills</div>
                 {
                     Skills.map((skill,index)=>{

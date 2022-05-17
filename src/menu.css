@@ -1,23 +1,8 @@
-.items{
-    margin:0rem;
-    /* border-bottom: 2rem; */
-    padding-inline-start: 1rem;
-    border: 1px solid gray;
-}
+
 #hamburg{
     color: aliceblue;
 }
-
-#n{
-    color: rgb(233, 237, 240);
-    background-color: rgb(8, 1, 1);
-    display: block;
-}
-.optionbutton{
-    margin-right: 1rem;
-
-}   
-.menu{
-    color: aliceblue;
-    display: block;
+li,#n{
+    margin:0%;
+    list-style: none;
 }

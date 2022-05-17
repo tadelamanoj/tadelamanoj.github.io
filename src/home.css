@@ -23,12 +23,13 @@
 }
 .home_card{
     text-align: center;
-    font-size: 30px;
     box-shadow: 5px;
     /* text-shadow: 2px 2px 4px #928e8e; */
     text-decoration: none;
-    font-size: 50px;
     overflow-wrap: break-word;
+}
+#intro{
+    font-size: 4rem;
 }
 .avat{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -99,6 +100,9 @@
         font-size: 30px;
         color: rgb(18, 19, 18);
         overflow-wrap: break-word;
+    }
+    #intro{
+        font-size: 1.8rem;
     }
     .avat{
         box-shadow: 0 4px 8px 0 rgba(12, 12, 12, 0.2), 0 6px 20px 0 rgba(10, 10, 10, 0.19);

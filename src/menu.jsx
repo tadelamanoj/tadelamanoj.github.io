@@ -1,7 +1,7 @@
 import * as React from 'react';
 import Button from '@mui/material/Button';
 import Menu from '@mui/material/Menu';
-import MenuItem from '@mui/material/MenuItem';
+// import MenuItem from '@mui/material/MenuItem';
 import MenuIcon from '@mui/icons-material/Menu';
 import { Link } from 'react-router-dom';
 
@@ -18,17 +18,17 @@ export default function PositionedMenu() {
   return (
     <div>
       <Button
-        id="demo-positioned-button"
+        id="demo-positioned-"
         aria-controls={open ? 'demo-positioned-menu' : undefined}
         aria-haspopup="true"
         aria-expanded={open ? 'true' : undefined}
         onClick={handleClick}
       >
-      <MenuIcon id='hamburg' color='primary' sx={{ fontSize: 40 }}/>
+      <MenuIcon id='hamburg'  sx={{ fontSize: 40 }}/>
       </Button>
       <Menu
         id="demo-positioned-menu"
-        aria-labelledby="demo-positioned-button"
+        aria-labelledby="demo-positioned-"
         anchorEl={anchorEl}
         open={open}
         onClose={handleClose}
@@ -41,10 +41,10 @@ export default function PositionedMenu() {
           horizontal: 'left',
         }}
       >
-        <MenuItem onClick={handleClose}><Link id='n' to="/home">Profile</Link></MenuItem>
-        <MenuItem onClick={handleClose}><Link id='n' to="/details">About</Link></MenuItem>
-        <MenuItem onClick={handleClose}><Link id='n' to="/work">Work</Link> </MenuItem>
-        <MenuItem onClick={handleClose}><Link id='n' to="/contact">Contact</Link> </MenuItem>
+          <li id='n'><Link onClick={handleClose} to="/manoj-kumar-tadela/home">Profile</Link></li>
+          <li id='n'><Link onClick={handleClose} to="/details">About</Link></li>
+          <li id='n'><Link onClick={handleClose} to="/work">Work</Link></li>
+          <li id='n'><Link onClick={handleClose} to="/contact">Contact</Link></li>
       </Menu>
     </div>
   );
