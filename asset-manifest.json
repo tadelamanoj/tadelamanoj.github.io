@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/manoj-kumar-tadela/static/css/main.5629dea2.css",
+    "main.css": "/manoj-kumar-tadela/static/css/main.ecb4a507.css",
     "main.js": "/manoj-kumar-tadela/static/js/main.59357eed.js",
     "static/js/787.99cda25f.chunk.js": "/manoj-kumar-tadela/static/js/787.99cda25f.chunk.js",
     "static/media/mypicc.png": "/manoj-kumar-tadela/static/media/mypicc.cd385d1b87f9d94ddc0d.png",
     "index.html": "/manoj-kumar-tadela/index.html",
-    "main.5629dea2.css.map": "/manoj-kumar-tadela/static/css/main.5629dea2.css.map",
+    "main.ecb4a507.css.map": "/manoj-kumar-tadela/static/css/main.ecb4a507.css.map",
     "main.59357eed.js.map": "/manoj-kumar-tadela/static/js/main.59357eed.js.map",
     "787.99cda25f.chunk.js.map": "/manoj-kumar-tadela/static/js/787.99cda25f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5629dea2.css",
+    "static/css/main.ecb4a507.css",
     "static/js/main.59357eed.js"
   ]
 }
