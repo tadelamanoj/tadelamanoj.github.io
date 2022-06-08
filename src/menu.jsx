@@ -46,7 +46,7 @@ export default function PositionedMenu() {
           <li id='n'><Link onClick={handleClose} to="/details">About</Link></li>
           <li id='n'><Link onClick={handleClose} to="/work">Work</Link></li>
           <li id='n'><Link onClick={handleClose} to="/contact">Contact</Link></li>
-          <li id='n'><a href={resumeUrl}><div className="header_option1">Resume</div></a></li>
+          <li id='n'><a onClick={handleClose} href={resumeUrl}><div className="header_option1">Resume</div></a></li>
       </Menu>
     </div>
   );
