@@ -12,7 +12,6 @@ import Button  from "@material-ui/core/Button"
 import Skills from './skills.json'
 import Work from './work'
 import Achievements from './achievements'
-// import Menu from './menu'
 function home(){
     return (
     
