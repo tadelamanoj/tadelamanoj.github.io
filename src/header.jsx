@@ -18,7 +18,7 @@ function header() {
                 <Link to='/details' ><div className="header_option1">About</div></Link>
                 <Link to='/work'><div className="header_option1">Work</div></Link>
                 <Link to='/contact'><div className="header_option1">Contact</div></Link>
-                <Link to='/'><div className="header_option1" onClick={handleClick}>Resume</div></Link>
+                <Link to='/home'><div className="header_option1" onClick={handleClick}>Resume</div></Link>
             </div>
             <div className="header_dash">
                 <Menu />
