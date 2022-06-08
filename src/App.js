@@ -18,7 +18,7 @@ function App() {
     return (
       <div className='pnf'>
         <img className='pnfimage'  src='https://weeblytutorials.com/wp-content/uploads/2017/05/Weebly-404-Page-Not-Found-Error1.png' alt='page not found'></img>
-        <Link  className="pagenotfound" to='/home'>BACK TO HOME</Link>
+        <Link  className="pagenotfound" to='/'>BACK TO HOME</Link>
       </div>
     )
   }
