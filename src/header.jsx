@@ -5,6 +5,9 @@ import Menu from './menu'
 
 function header() {
     const resumeUrl="https://drive.google.com/file/d/1X_PD_AGrpF_JqXmwD_lpn9qM-BkXyyEP/view?usp=sharing"
+    const handleClick = () => {
+        window.open(resumeUrl);
+      };
     return (
         <div className="header">
             <Link className="header_logo" to='/manoj-kumar-tadela/home'>
@@ -15,7 +18,7 @@ function header() {
                 <Link to='/details' ><div className="header_option1">About</div></Link>
                 <Link to='/work'><div className="header_option1">Work</div></Link>
                 <Link to='/contact'><div className="header_option1">Contact</div></Link>
-                <a href={resumeUrl}><div className="header_option1">Resume</div></a>
+                <Link><div className="header_option1" onClick={handleClick}>Resume</div></Link>
             </div>
             <div className="header_dash">
                 <Menu />
