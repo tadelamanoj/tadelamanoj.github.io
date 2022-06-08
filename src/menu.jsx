@@ -14,6 +14,7 @@ export default function PositionedMenu() {
   const handleClose = () => {
     setAnchorEl(null);
   };
+  const resumeUrl="https://drive.google.com/file/d/1X_PD_AGrpF_JqXmwD_lpn9qM-BkXyyEP/view?usp=sharing"
 
   return (
     <div>
@@ -45,6 +46,7 @@ export default function PositionedMenu() {
           <li id='n'><Link onClick={handleClose} to="/details">About</Link></li>
           <li id='n'><Link onClick={handleClose} to="/work">Work</Link></li>
           <li id='n'><Link onClick={handleClose} to="/contact">Contact</Link></li>
+          <li id='n'><a href={resumeUrl}><div className="header_option1">Resume</div></a></li>
       </Menu>
     </div>
   );
