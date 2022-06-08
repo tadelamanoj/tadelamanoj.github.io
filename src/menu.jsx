@@ -4,7 +4,7 @@ import Menu from '@mui/material/Menu';
 // import MenuItem from '@mui/material/MenuItem';
 import MenuIcon from '@mui/icons-material/Menu';
 import { Link } from 'react-router-dom';
-
+import "./menu.css";
 export default function PositionedMenu() {
   const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
@@ -25,11 +25,10 @@ export default function PositionedMenu() {
         aria-expanded={open ? 'true' : undefined}
         onClick={handleClick}
       >
-      <MenuIcon id='hamburg'  sx={{ fontSize: 40 }}/>
+      <MenuIcon id='hamburg'  sx={{ fontSize: 40 , color:"white" }}/>
       </Button>
       <Menu
         id="demo-positioned-menu"
-        aria-labelledby="demo-positioned-"
         anchorEl={anchorEl}
         open={open}
         onClose={handleClose}
@@ -41,12 +40,13 @@ export default function PositionedMenu() {
           vertical: 'top',
           horizontal: 'left',
         }}
+        sx={{textAlign:"left",marginLeft:"0.5rem"}}
       >
-          <li id='n'><Link onClick={handleClose} to="/manoj-kumar-tadela/home">Profile</Link></li>
-          <li id='n'><Link onClick={handleClose} to="/details">About</Link></li>
-          <li id='n'><Link onClick={handleClose} to="/work">Work</Link></li>
-          <li id='n'><Link onClick={handleClose} to="/contact">Contact</Link></li>
-          <li id='n'><a onClick={handleClose} href={resumeUrl}><div className="header_option1">Resume</div></a></li>
+        <li id='n'><Link onClick={handleClose} to="/manoj-kumar-tadela/home">Profile</Link></li>
+        <li id='n'><Link onClick={handleClose} to="/details">About</Link></li>
+        <li id='n'><Link onClick={handleClose} to="/work">Work</Link></li>
+        <li id='n'><Link onClick={handleClose} to="/contact">Contact</Link></li>
+        <li id='n'><a onClick={handleClose} href={resumeUrl}><div className="header_option1">Resume</div></a></li>
       </Menu>
     </div>
   );
