@@ -22,10 +22,10 @@ function contact() {
                     <LinkedInIcon color='primary' sx={{ fontSize: 40 }}/>
                     <span><a href='https://www.linkedin.com/in/manoj-kumar-tadela-264056130/'> LinkedIn</a></span>
                 </p>
-                <p>
+                {/* <p>
                     <GitHubIcon color='black' sx={{ fontSize: 40 }}/>
                     <span><a href='https://github.com/tadelamanoj'> Git Hub</a></span>
-                </p>
+                </p> */}
                 <p>
                     <FacebookRoundedIcon color='primary' sx={{ fontSize: 40 }}/>
                     <span><a href='https://www.facebook.com/profile.php?id=100005478107549'> FaceBook</a></span>
