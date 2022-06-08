@@ -42,7 +42,7 @@ export default function PositionedMenu() {
         }}
         sx={{textAlign:"left",marginLeft:"0.5rem"}}
       >
-        <li id='n'><Link onClick={handleClose} to="/home">Profile</Link></li>
+        <li id='n'><Link onClick={handleClose} to="/">Profile</Link></li>
         <li id='n'><Link onClick={handleClose} to="/details">About</Link></li>
         <li id='n'><Link onClick={handleClose} to="/work">Work</Link></li>
         <li id='n'><Link onClick={handleClose} to="/contact">Contact</Link></li>

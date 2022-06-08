@@ -30,10 +30,10 @@ function App() {
             <div className='app'>
               <Header/>
               <Switch>
+                <Route exact path="/" component={Home} />
                 <Route exact path="/work" component={Work}/>
                 <Route exact path="/details" component={Details} />
                 <Route exact path="/contact" component={Contact} />
-                <Route exact path="/home" component={Home} />
                 {/* <Route exact path="*" component={Home} /> */}
                 <Route exact path="*" component={pageNotFound} />
 
