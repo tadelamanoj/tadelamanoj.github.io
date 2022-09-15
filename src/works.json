@@ -1,15 +1,15 @@
 [
     {
-        "imag":"https://govhack.org/wp-content/uploads/2019/08/Infosys.jpg",
+        "imag":"https://www.analyticsinsight.net/wp-content/uploads/2019/08/Infosys.jpg",
         "desig":"DIGITAL SPECIALIST ENGINEER, INFOSYS",
         "descr":"Developed REST API's for Infosys Equinox as a Backend developer and developed POC for marketplace feeds using AWS GLUE."
     },
     {
-        "imag":"https://govhack.org/wp-content/uploads/2019/08/Infosys.jpg",
+        "imag":"https://www.analyticsinsight.net/wp-content/uploads/2019/08/Infosys.jpg",
         "desig":"SYSTEM ENGINEER SPECIALIST, INFOSYS",
         "descr":"Design and developed the UI for Infosys Equinox as a Frontend developer, Fixed major UI related issues using react and next.js."
     },{
-        "imag":"https://govhack.org/wp-content/uploads/2019/08/Infosys.jpg",
+        "imag":"https://www.analyticsinsight.net/wp-content/uploads/2019/08/Infosys.jpg",
         "desig":"SYSTEM ENGINEER SPECIALIST TRAINEE, INFOSYS",
         "descr":"Designed and developed an ecommerce web application (similar to amazon). Developed UI for cart and orders component using Angular and material UI Developed microservices and REST API's for cart and orders backend for load balancing using node, express and mongodb."
     }
