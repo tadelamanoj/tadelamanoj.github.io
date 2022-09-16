@@ -45,7 +45,7 @@ function home(){
                 }
                 
             </div>
-            <div>
+            <div className="achievements">
                 <Achievements/>
             </div>
 
