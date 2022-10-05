@@ -3,7 +3,9 @@
     height: auto;
     overflow: hidden;
     flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.979);
     flex-flow: row;
+    color: rgb(219, 214, 214);
 }
 .image{
     max-width: 100%;
@@ -19,15 +21,22 @@
     margin: 1rem;
     margin-right: auto;
     overflow-wrap: break-word;
+    color: rgb(219, 214, 214);
+}
+.para{
+    color: rgb(194, 198, 201);
 }
 @media only screen and (max-width: 580px) {
     .details{
         max-width: 100%;
+        background-color: rgba(0, 0, 0, 0.979);
         height: auto;
         overflow: hidden;
         flex-wrap: wrap;
         flex-flow: row;
         padding: 1rem;
+        color: aliceblue;
+
     }
     .image{
         max-width: 100%;
@@ -43,5 +52,10 @@
         margin: 2rem;
         margin-right: auto;
         overflow-wrap: break-word;
+        color: rgb(219, 214, 214);
+
+    }
+    .para{
+        color: rgb(194, 198, 201);
     }
 }

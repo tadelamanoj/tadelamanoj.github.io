@@ -40,7 +40,7 @@ export default function PositionedMenu() {
           vertical: 'top',
           horizontal: 'left',
         }}
-        sx={{textAlign:"left",marginLeft:"0.5rem"}}
+        sx={{textAlign:"left",color:"black",marginLeft:"0.5rem"}}
       >
         <li id='n'><Link onClick={handleClose} to="/">Profile</Link></li>
         <li id='n'><Link onClick={handleClose} to="/details">About</Link></li>

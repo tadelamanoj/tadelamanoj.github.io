@@ -15,7 +15,9 @@ import Achievements from './achievements'
 function home(){
     return (
     
-        <Paper className="home" elevation={5}>
+        <Paper className="home" elevation={5} 
+        style={{backgroundColor:"black"}}
+        >
             <Image
             className="avat"
             src={require('./images/mypicc.png')}

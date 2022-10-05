@@ -1,16 +1,18 @@
 .card{
     margin: 0rem;
     border: none;
+    background-color: rgb(12, 12, 12);
+    enable-background: accumulate;
 }
 .contact{
     padding: 1rem;
     align-content: center;
     text-align: center;
     flex-wrap: wrap;
-
+    
 }
 p{
-    color: rgb(0, 0, 0);
+    color: rgba(232, 234, 236, 0.945);
     font-size: 2rem;
     vertical-align: middle;
 
@@ -20,14 +22,15 @@ p{
 }
 a{
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(179, 176, 174);
     vertical-align: middle;
 
 }
-a:hover{
+.a:hover{
     text-align: center;
     text-decoration: none;
-    color: rgb(48, 46, 46);
+    color: rgb(4, 180, 122);
+
 }
 
 @media only screen and (max-width: 580px) {
@@ -35,6 +38,7 @@ a:hover{
     .card{
         margin: 0rem;
         border: none;
+        background-color: rgb(12, 12, 12);
     }
     .contact{
         padding: 1rem;
@@ -43,7 +47,7 @@ a:hover{
         margin-top: 1.5rem;
     }
     p{
-        color: rgb(0, 0, 0);
+        color: rgba(232, 234, 236, 0.945);
         font-size: 1.5rem;
         vertical-align: middle;
     }
@@ -52,13 +56,16 @@ a:hover{
     }
     a{
         text-decoration: none;
-        color: rgb(0, 0, 0);
+        color: rgb(10, 10, 10);
         vertical-align: middle;
     }
     a:hover{
         text-align: center;
         text-decoration: none;
-        color: rgb(48, 46, 46);
+        color: rgb(4, 180, 122);
+    }
+    .anchor{
+        color: rgb(216, 216, 215);
     }
     
 }

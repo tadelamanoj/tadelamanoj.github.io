@@ -2,6 +2,8 @@
     /* background-color: rgb(32, 32, 32); */
     display: flex;
     flex-wrap:wrap;
+    /* text-emphasis-color: rgb(212, 208, 208); */
+    color: rgb(240, 240, 240);
     justify-content: space-evenly;
     /* background-image: linear-gradient(to bottom right,rgb(252, 248, 248),rgb(31, 0, 51),rgb(252, 248, 248),rgb(88, 72, 145),rgb(252, 248, 248),rgb(82, 24, 121)); */
 }
@@ -24,12 +26,14 @@
 .home_card{
     text-align: center;
     box-shadow: 5px;
+    /* color-interpolation-filters: sRGB; */
     /* text-shadow: 2px 2px 4px #928e8e; */
     text-decoration: none;
     overflow-wrap: break-word;
 }
 #intro{
     font-size: 4rem;
+    color: rgb(212, 212, 216);
 }
 .avat{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -45,6 +49,7 @@
 .skills{
     max-width: 90px;
     margin: 2rem;
+    color: rgb(119, 119, 121);
     flex-wrap: wrap;
 }
 .skills:hover{
@@ -56,7 +61,7 @@
 }
 .skill_head{
     font-size: 80px;
-    color: green;
+    color: rgb(6, 205, 231);
     flex-wrap: wrap;
     text-align: center;
     text-transform: uppercase;
@@ -65,7 +70,7 @@
 .experience_header{
     text-transform: uppercase;
     font-size: 80px;
-    color: rgb(0, 9, 128);
+    color: rgb(6, 205, 231);
     text-align: center;
 }
 
@@ -74,6 +79,7 @@
     .home{
         display: flex;
         flex-wrap:wrap;
+        background-color: rgb(4, 1, 17);
         justify-content: space-evenly;
         /* background-image: linear-gradient(to bottom right,rgb(7, 115, 119),rgb(252, 248, 248),rgb(97, 245, 208)); */
         /* background-image: linear-gradient(to bottom right,rgb(13, 13, 14),rgb(252, 248, 248),rgb(172, 167, 167),rgb(252, 248, 248),rgb(28, 28, 29)); */
@@ -83,7 +89,7 @@
         padding-bottom: 3rem;
     }
     .home>Image{
-        border-bottom: 1px solid gray;
+        border-bottom: 1px solid rgb(223, 222, 222);
         padding-bottom: 3rem;
     }
     .home_header{
@@ -104,6 +110,8 @@
     }
     #intro{
         font-size: 1.8rem;
+        color: rgb(212, 212, 216);
+
     }
     .avat{
         box-shadow: 0 4px 8px 0 rgba(12, 12, 12, 0.2), 0 6px 20px 0 rgba(10, 10, 10, 0.19);
@@ -123,14 +131,14 @@
     }
     .skill_head{
         font-size: 3rem;
-        color: green;
+        color: rgb(6, 205, 231);
         flex-wrap: wrap;
         text-align: center;
     }
     .experience_header{
         text-transform: uppercase;
         font-size: 3rem;
-        color: rgb(0, 9, 128);
+        color: rgb(10, 243, 243);
         text-align: center;
     }
     

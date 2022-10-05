@@ -3,6 +3,8 @@
     flex-wrap: wrap;
     flex-direction: row;
     margin: 2rem;
+    background-color: rgb(12, 12, 12);
+    color: rgba(232, 234, 236, 0.945);
     justify-content: space-evenly;
 }
 .workitem{
@@ -17,6 +19,8 @@
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-evenly;
+        background-color: rgb(12, 12, 12);
+        color: rgba(232, 234, 236, 0.945);
     }
     .workitem{
         margin: -1rem;
