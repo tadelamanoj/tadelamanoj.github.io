@@ -4,7 +4,9 @@ import Menu from '@mui/material/Menu';
 // import MenuItem from '@mui/material/MenuItem';
 import MenuIcon from '@mui/icons-material/Menu';
 import { Link } from 'react-router-dom';
+import resumeurl from './resume.json'; 
 import "./menu.css";
+
 export default function PositionedMenu() {
   const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
@@ -14,7 +16,7 @@ export default function PositionedMenu() {
   const handleClose = () => {
     setAnchorEl(null);
   };
-  const resumeUrl="https://drive.google.com/file/d/132RbWFuLhDPHCECrfuA85_TTrzVc1jcl/view?usp=sharing"
+  const resumeUrl=resumeurl.resume
 
   return (
     <div>

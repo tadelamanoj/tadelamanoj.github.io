@@ -2,9 +2,11 @@ import React from "react";
 import "./header.css";
 import {Link} from 'react-router-dom'
 import Menu from './menu'
+import resumeurl from './resume.json'
 
 function header() {
-    const resumeUrl="https://drive.google.com/file/d/132RbWFuLhDPHCECrfuA85_TTrzVc1jcl/view?usp=sharing"
+
+    const resumeUrl=resumeurl.resume
     const handleClick = () => {
         window.open(resumeUrl);
       };
