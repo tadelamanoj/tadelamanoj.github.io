@@ -27,7 +27,7 @@ function home(){
             <div className="home_card col-8">
                 <h1 className="home_header" >Hi There.!</h1>
                 <p id="intro">I'm Manoj,</p>
-                <p id="intro">A Full-Stack Engineer at Infosys based in Bangalore. </p> 
+                <p id="intro">A Full-Stack Engineer based in Andhra Pradesh. </p> 
                 <Link to="/contact"><Button className="contact" color="primary" variant="contained" >Contact Me</Button></Link>
             </div>
             
