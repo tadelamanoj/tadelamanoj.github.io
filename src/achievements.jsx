@@ -7,7 +7,7 @@ function achievements() {
                 Achievements
             </div>
             <ul>
-                <li><strong>CSE GATE</strong> qualified in 2021 and 2023 with >93 pecentile.</li>
+                <li><strong>CSE GATE</strong> qualified in 2021 and 2023 with &gt;93 pecentile.</li>
                 <li><strong>Google Kick Start</strong> 2022 global ranking are 3407 round(H),5687 round(F),6460 round(E).  </li>
                 <li>Solved more than 500+ DSA problems in various platforms like Leetcode, CodeChef, GeeksForGeeks, HackerEarth, HackerRank</li>
                 <li>Ranked below 1500 among 150000 which is top 1% in HackwithInfy conducted by Infosys in 2020.</li>
