@@ -37,8 +37,12 @@ function work() {
                     </CardContent>
                     <CardActions>
                         {
-                            item.desig!=="SYSTEM ENGINEER SPECIALIST TRAINEE, INFOSYS" ? <Button size="small" href='https://www.infosysequinox.com/'color='primary'  variant='outlined'>Infosys Equinox</Button>:<Button size="small" color='primary' onClick={alerting}  variant='outlined'>Infosys</Button>
+                            item.link==="" ? 
+                            <Button size="small" color='primary' onClick={alerting}  variant='outlined'>WORK</Button>
+                            : 
+                            <Button size="small" href={item.link} color='primary'  variant='outlined'>WORK</Button>
                         }
+                        
                         {/* <Button size="small" href='https://www.infosysequinox.com/'color='primary'  variant='outlined'>Infosys Equinox</Button> */}
                     </CardActions>
                     </Card>  
