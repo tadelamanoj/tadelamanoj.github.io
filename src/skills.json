@@ -14,6 +14,15 @@
     {
         "skill":"express",
         "image":"https://blog.amt.in/wp-content/uploads/2017/12/e16da876-c2fd-4eb8-ae72-4b193c534938-Edited.png"
+    },{
+        "skill":"Redux",
+        "image":"https://unitedwebsoft.in/uploads/2022/03/34584019_1646639132_React-Redux-tutorials-for-beginners.jpg"
+    },{
+        "skill":"PM2",
+        "image":"https://res.cloudinary.com/practicaldev/image/fetch/s--WGzh39Aw--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/yqnbx749hp9u8mjcn3ai.jpg"
+    },{
+        "skill":"Docker",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/4/4e/Docker_%28container_engine%29_logo.svg"
     },
     {
         "skill":"Angular",
@@ -45,12 +54,6 @@
     },{
         "skill":"Python",
         "image":"https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg"
-    },{
-        "skill":"c",
-        "image":"https://seeklogo.com/images/C/c-logo-672525892C-seeklogo.com.png"
-    },{
-        "skill":"Cpp",
-        "image":"https://www.svgrepo.com/show/303480/c-logo.svg"
     },{
         "skill":"Java",
         "image":"https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg"

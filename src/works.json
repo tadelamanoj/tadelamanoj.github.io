@@ -1,16 +1,28 @@
 [
     {
+        "imag":"https://zenprospect-production.s3.amazonaws.com/uploads/pictures/64b5663bd8b34b0001a3146d/picture",
+        "desig":"FULL STACK DEVELOPER, QI-CAP",
+        "descr":"QI-CAP is a High-Frequency Trading platform, This is a Product startup. Here I got the opportunity to develop premium features like strategy builder and pay-off charts from scratch, in which traders can build their strategy and predict the maximum profit or loss for that particular strategy, and pay-off charts to show current profit or loss based on the portfolio's position of the trader. I have learned and used the chart js visualization library to generate the graphs, along with these, many other tasks were successfully delivered in time. And here is another project ( Employee-Company Portal ) which was architected by me alone and built from scratch and deployed. This has a lot of features that I can discuss with you in the interviews.",
+        "link":""
+    },
+    {
         "imag":"https://www.analyticsinsight.net/wp-content/uploads/2019/08/Infosys.jpg",
         "desig":"DIGITAL SPECIALIST ENGINEER, INFOSYS",
-        "descr":"Developed REST API's for Infosys Equinox as a Backend developer and developed POC for marketplace feeds using AWS GLUE."
+        "descr":"Developed REST API's for Infosys Equinox as a Backend developer and developed marketplace feeds using AWS GLUE.",
+        "link":"https://www.infosysequinox.com/"
+
     },
     {
         "imag":"https://www.analyticsinsight.net/wp-content/uploads/2019/08/Infosys.jpg",
         "desig":"SYSTEM ENGINEER SPECIALIST, INFOSYS",
-        "descr":"Design and developed the UI for Infosys Equinox as a Frontend developer, Fixed major UI related issues using react and next.js."
+        "descr":"Design and developed the UI for Infosys Equinox as a Frontend developer, Fixed major UI related issues using react and next.js.",
+        "link":"https://www.infosysequinox.com/"
+
     },{
         "imag":"https://www.analyticsinsight.net/wp-content/uploads/2019/08/Infosys.jpg",
         "desig":"SYSTEM ENGINEER SPECIALIST TRAINEE, INFOSYS",
-        "descr":"Designed and developed an ecommerce web application (similar to amazon). Developed UI for cart and orders component using Angular and material UI Developed microservices and REST API's for cart and orders backend for load balancing using node, express and mongodb."
+        "descr":"Designed and developed an ecommerce web application (similar to amazon). Developed UI for cart and orders component using Angular and material UI Developed microservices and REST API's for cart and orders backend for load balancing using node, express and mongodb.",
+        "link":"https://www.google.com"
+
     }
 ]

@@ -9,7 +9,7 @@ function Details() {
             yr=yr-1
             mon=12+mon
         }
-        const date = `${yr}year ${mon}months ${current.getDate()}days `;
+        const date = `${yr} years ${mon} months ${current.getDate()} days `;
         return date
     }
     return ( 
