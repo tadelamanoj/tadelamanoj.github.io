@@ -1,4 +1,4 @@
-import Header from './header'
+import Header from './header';
 import Details from './details'
 import React from 'react';
 import Work from './work';

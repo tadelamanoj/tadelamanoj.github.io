@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 import Menu from './menu'
 import resumeurl from './resume.json'
 
-function header() {
+function Header() {
 
     const resumeUrl=resumeurl.resume
     const handleClick = () => {
@@ -29,4 +29,4 @@ function header() {
     );
 }
 
-export default header;
+export default Header;
