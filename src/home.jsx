@@ -33,7 +33,7 @@ function home(){
             </div>
             
             <div className="experience">
-                <div className="experience_header" >Experience</div>
+                <div className="experience_header" >Experiences</div>
                 <Work/>
             </div>
 
