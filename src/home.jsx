@@ -27,7 +27,7 @@ function home(){
             />
             <div className="home_card col-8">
                 <h1 className="home_header" >Hi There.!</h1>
-                <p id="intro">I'm Manoj,</p>
+                <p id="intro">I'm Manoj Kumar,</p>
                 <p id="intro"><ReactTyped strings={["A Full-Stack Engineer based in Bangalore."]} typeSpeed={100} loop /></p> 
                 <Link to="/contact"><Button className="contact" color="primary" variant="contained" >Contact Me</Button></Link>
             </div>
