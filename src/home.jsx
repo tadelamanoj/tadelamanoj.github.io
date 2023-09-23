@@ -14,6 +14,7 @@ import Work from './work'
 import Achievements from './achievements'
 import ReactTyped from "react-typed"
 function home(){
+    
     return (
     
         <Paper className="home" elevation={5} 
