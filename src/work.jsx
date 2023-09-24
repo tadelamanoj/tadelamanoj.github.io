@@ -40,7 +40,7 @@ function Work() {
     };
 
     return (
-        <div className='work'>
+        <div className='work' style={{height:'100%',width:"100%"}} >
             {Works.map((item, index) => {
                 return (
                     <div key={index} className='workitem'>
