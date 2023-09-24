@@ -6,6 +6,8 @@
     background-color: rgb(12, 12, 12);
     color: rgba(232, 234, 236, 0.945);
     justify-content: space-evenly;
+    margin: 0; 
+    /* Remove default margin */
 }
 .workitem{
     margin: 1.5rem;
