@@ -3,14 +3,14 @@ import Details from './details'
 import React from 'react';
 import Work from './work';
 import {
-  BrowserRouter as Router,
-  Switch,
+  HashRouter as Router,
   Route,
   Link,
 } from "react-router-dom";
 import Home from './home';
 import Contact from './contact'
 import './App.css';
+import { HashRouter } from 'react-router-dom/cjs/react-router-dom';
 function App() {
 
   function pageNotFound(){
@@ -28,13 +28,13 @@ function App() {
           <Router>
             <div className='app'>
               <Header/>
-              <Switch>
+              <HashRouter >
                 <Route exact path="/" component={Home} />
-                <Route exact path="/work" component={Work}/>
+                <Route exact path="/work" component={Work}/> 
                 <Route exact path="/details" component={Details} />
                 <Route exact path="/contact" component={Contact} />
                 <Route exact path="*" component={pageNotFound} />
-              </Switch>
+              </HashRouter>
             </div>
           </Router>
   );
