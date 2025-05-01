@@ -1,5 +1,11 @@
 [
     {
+        "imag": "https://media.licdn.com/dms/image/C560BAQHuE_qGncrdnw/company-logo_200_200/0/1630563435871?e=2147483647&v=beta&t=p7_Tk5zSTVW8GjYmZhgtfv2x3m5WPOOWdjB7XsjFdn4",
+        "desig": "FULL STACK DEVELOPER, FRACTAL",
+        "descr": "At Fractal, I designed and built scalable backend APIs using Django, integrating with external services like calendar apps with minimal latency. I integrated data science models into the backend, enabling real-time processing, and used Azure Redis for caching to drastically improve API responsiveness. For computationally intensive tasks, I implemented distributed worker queues, and utilized Azure Functions for lightweight, serverless processing. I also led the migration architecture towards FastAPI to enable fully asynchronous request handling. I optimized database access patterns and caching strategies, reducing infrastructure costs while increasing system performance. I maintained Swagger-based API documentation, wrote unit tests for robust Django apps, and contributed to frontend development for specific modules. Collaborated with cross-functional teams and mentored junior developers, ensuring high-quality, maintainable code through code reviews and design discussions.",
+        "link": ""
+    },      
+    {
         "imag":"https://zenprospect-production.s3.amazonaws.com/uploads/pictures/64b5663bd8b34b0001a3146d/picture",
         "desig":"FULL STACK DEVELOPER, QI-CAP",
         "descr":"At QI-CAP, a leading High-Frequency Trading platform, I spearheaded the development of pivotal features, notably the Strategy Builder and Pay-off Charts, from inception to implementation. These enhancements empower traders to craft bespoke strategies, offering predictive insights into potential gains or losses. Leveraging the robust Chart.js visualization library, I ensured seamless generation of dynamic graphs. Beyond this, I championed a solo effort in architecting and building the Employee-Company Portal, a comprehensive system conceived from the ground up. This encompassing solution boasts a myriad of functionalities, which I'm eager to elaborate on during interviews.",
