@@ -12,20 +12,20 @@
         "link":""
     },
     {
-        "imag":"https://www.analyticsinsight.net/wp-content/uploads/2019/08/Infosys.jpg",
+        "imag":"https://w7.pngwing.com/pngs/880/528/png-transparent-infosys-logo-and-slogan.png",
         "desig":"DIGITAL SPECIALIST ENGINEER, INFOSYS",
         "descr":"Developed REST API's for Infosys Equinox as a Backend developer and developed marketplace feeds using AWS GLUE.",
         "link":"https://www.infosysequinox.com/"
 
     },
     {
-        "imag":"https://www.analyticsinsight.net/wp-content/uploads/2019/08/Infosys.jpg",
+        "imag":"https://w7.pngwing.com/pngs/880/528/png-transparent-infosys-logo-and-slogan.png",
         "desig":"SYSTEM ENGINEER SPECIALIST, INFOSYS",
         "descr":"Design and developed the UI for Infosys Equinox as a Frontend developer, Fixed major UI related issues using react and next.js.",
         "link":"https://www.infosysequinox.com/"
 
     },{
-        "imag":"https://www.analyticsinsight.net/wp-content/uploads/2019/08/Infosys.jpg",
+        "imag":"https://w7.pngwing.com/pngs/880/528/png-transparent-infosys-logo-and-slogan.png",
         "desig":"SYSTEM ENGINEER SPECIALIST TRAINEE, INFOSYS",
         "descr":"Designed and developed an ecommerce web application (similar to amazon). Developed UI for cart and orders component using Angular and material UI Developed microservices and REST API's for cart and orders backend for load balancing using node, express and mongodb.",
         "link":"https://www.google.com"
