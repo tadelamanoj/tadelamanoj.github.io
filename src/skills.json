@@ -25,13 +25,13 @@
     },
     {
         "skill":"express",
-        "image":"https://blog.amt.in/wp-content/uploads/2017/12/e16da876-c2fd-4eb8-ae72-4b193c534938-Edited.png"
+        "image":"https://images.seeklogo.com/logo-png/33/1/express-js-logo-png_seeklogo-339850.png"
     },{
         "skill":"Redux",
         "image":"https://unitedwebsoft.in/uploads/2022/03/34584019_1646639132_React-Redux-tutorials-for-beginners.jpg"
     },{
         "skill":"PM2",
-        "image":"https://res.cloudinary.com/practicaldev/image/fetch/s--WGzh39Aw--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/yqnbx749hp9u8mjcn3ai.jpg"
+        "image":"https://miro.medium.com/v2/resize:fit:1100/format:webp/1*nio3CzcEkbTmBFTVLTfdsg.png"
     },{
         "skill":"Docker",
         "image":"https://upload.wikimedia.org/wikipedia/commons/4/4e/Docker_%28container_engine%29_logo.svg"
@@ -50,7 +50,7 @@
         "image":"https://upload.wikimedia.org/wikipedia/commons/d/d4/Javascript-shield.svg"
     },{
         "skill":"Typescript",
-        "image":"https://icons-for-free.com/iconfiles/png/512/vscode+icons+type+typescript-1324451507894042344.png"
+        "image":"https://static.cdnlogo.com/logos/t/85/typescript.svg"
     },{
         "skill":"Bootstrap",
         "image":"https://logovectorseek.com/wp-content/uploads/2019/10/bootstrap-logo-vector.png"
