@@ -9,11 +9,11 @@
     },
     {
         "skill": "Azure",
-        "image": "https://learn.microsoft.com/en-us/media/logos/azure-icon.svg"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Microsoft_Azure_Logo.svg"
     },
     {
         "skill": "Redis",
-        "image": "https://upload.wikimedia.org/wikipedia/en/6/6b/Redis_Logo.svg"
+        "image": "https://cdn.iconscout.com/icon/free/png-512/free-redis-logo-icon-download-in-svg-png-gif-file-formats--wordmark-programming-langugae-freebies-pack-logos-icons-1175104.png?f=webp&w=512"
     },
     {
         "skill":"mongodb",
